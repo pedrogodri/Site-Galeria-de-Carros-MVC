@@ -4,3 +4,46 @@
 
 <h1>@ViewData["Title"]</h1>
 
+<form class="row g-3">
+    <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Senha</label>
+        <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+        <label for="inputAddress" class="form-label">Endereço</label>
+        <input type="text" class="form-control" id="inputAddress">
+    </div>
+    <div class="col-md-6">
+        <label for="inputCity" class="form-label">Cidade</label>
+        <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+        <label for="inputState" class="form-label">Estado</label>
+        <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Santa Catarina</option>
+            <option>Paraná</option>
+            <option>Rio Grande do Sul</option>
+        </select>
+    </div>
+    <div class="col-md-2">
+        <label for="formFile" class="form-label">Selecione seu curriculo</label>
+        <input class="form-control" type="file" id="formFile">
+    </div>
+    <div class="col-12">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+                Mantenha-me conectado
+            </label>
+        </div>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+</form>
+
